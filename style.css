@@ -75,7 +75,7 @@ button:active {
 }
 
 .enpty {
-    visibility: hidden;
+    visibility: visible;
 }
 
 .eqol {
