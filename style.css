@@ -13,7 +13,7 @@ body {
     border-radius: 30px;
     max-width: 500px;
     max-height: 725px;
-    overflow: hidden;
+    overflow-x: hidden;
     border: solid;
     border-color: orangered;
     border-width: 5px;
