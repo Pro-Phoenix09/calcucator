@@ -4,7 +4,8 @@ body {
     justify-content: center;
     padding-top: 100px;
     background-color: hsl(0, 0%, 95%);
-
+    overflow-y: visible;
+    overflow-x: hidden;
 }
 
 #calculator {
@@ -13,7 +14,7 @@ body {
     border-radius: 30px;
     max-width: 500px;
     max-height: 725px;
-    overflow-x: hidden;
+    overflow: hidden;
     border: solid;
     border-color: orangered;
     border-width: 5px;
