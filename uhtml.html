@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            saataaa andagii
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div id="calculator">
+            <input id="display" readonly>
+            <div id="keys">                
+                <button onclick="SendToDisplay('7')">7</button>
+                <button onclick="SendToDisplay('8')">8</button>
+                <button onclick="SendToDisplay('9')">9</button>
+                <button onclick="SendToDisplay('/')" class="operator-btn">/</button>
+                <button onclick="SendToDisplay('4')">4</button>
+                <button onclick="SendToDisplay('5')">5</button>
+                <button onclick="SendToDisplay('6')">6</button>
+                <button onclick="SendToDisplay('*')" class="operator-btn">X</button>
+                <button onclick="SendToDisplay('1')">1</button>
+                <button onclick="SendToDisplay('2')">2</button>
+                <button onclick="SendToDisplay('3')">3</button>
+                <button onclick="SendToDisplay('-')" class="operator-btn">-</button>
+                <button onclick="SendToDisplay('.')">.</button>
+                <button onclick="SendToDisplay('0')">0</button>
+                <button onclick="Operate()" class="eqol">=</button>
+                <button onclick="SendToDisplay('+')" class="operator-btn">+</button>
+                <button class="enpty"></button>
+                <button class="enpty"></button>
+                <button class="enpty"></button>
+                <button onclick="clearDisplay()" class="operator-btn">C</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+    </body>
+</html>
