@@ -90,3 +90,39 @@ button:active {
     border-color: cyan;
 }
 
+.hiddenlink {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hiddenlink:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: solid;
+    background-color: rgb(31, 86, 122);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hiddenlink:active {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: solid;
+    border-color: aqua;
+    background-color: rgb(255, 0, 157);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
